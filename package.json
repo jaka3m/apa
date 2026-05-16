@@ -1,0 +1,14 @@
+{
+  "name": "huggingface-vpn",
+  "version": "1.0.0",
+  "description": "VPN proxy for Hugging Face Spaces",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
